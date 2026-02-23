@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 function App() {
  const [message, setMessage] = useState("");
  useEffect(() => {
- fetch(“***/api/hello”)
+ fetch(“https://sb-backend-mrnc.onrender.com/api/hello”)
  .then(res => res.text())
  .then(data => setMessage(data))
  .catch(err => console.error(err));
