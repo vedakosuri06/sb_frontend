@@ -14,7 +14,7 @@ function App() {
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>Spring Boot + React App</h1>
       <h2>{message}</h2>
-      <p style={{ fontSize: "18px", color: "gray" }}>
+      <p style={{ fontSize: "30px", color: "white" }}>
         Vedaa!!
       </p>
     </div>
